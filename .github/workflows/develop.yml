@@ -24,7 +24,7 @@ jobs:
           --health-interval=10s
           --health-timeout=5s
           --health-retries=5
-          
+
     # Steps in job
     steps:
       # Get code from repo
@@ -50,4 +50,4 @@ jobs:
 
       # Run tests
       - name: Run Tests
-        run: npm run test
+        run: npm run test-component
