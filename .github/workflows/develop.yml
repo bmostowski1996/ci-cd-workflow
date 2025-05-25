@@ -28,13 +28,13 @@ jobs:
       - name: 🧰 Install Deps
         run: npm install
 
-      # Seed Database
-      - name: Seed database
-        run: npm run seed
-        
       # Run build
       - name: Run Build
         run: npm run build
+
+      # Seed Database
+      - name: Seed database
+        run: npm run seed
 
       # Run tests
       - name: Run Tests
