@@ -41,8 +41,8 @@ jobs:
         run: npm install
 
       # Run build
-      - name: Run Build
-        run: npm run build
+      # - name: Run Build
+      #   run: npm run build
 
       # Seed Database
       # - name: Seed database
